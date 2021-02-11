@@ -38,6 +38,7 @@ def analyze(request):
         result = result.title()
     if charcount == "on":
         c = 0
+
         for x in djtext:
             if x != " ":
                 c += 1
